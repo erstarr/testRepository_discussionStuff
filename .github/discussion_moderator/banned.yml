@@ -1,3 +1,7 @@
+asked:
+  banned_by: erstarr
+  reason: for it
+  timestamp: '2026-08-20T04:27:23.168494+00:00'
 erstarr:
   banned_by: __system__
   reason: 'Auto-ban: reached 3 strikes'
