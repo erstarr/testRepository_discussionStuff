@@ -2,3 +2,7 @@ erstarr:
   banned_by: __system__
   reason: 'Auto-ban: reached 3 strikes'
   timestamp: '2026-08-20T05:02:10.192635+00:00'
+wabarTM:
+  banned_by: erstarr
+  reason: erstarr
+  timestamp: '2026-08-20T05:06:05.474677+00:00'
