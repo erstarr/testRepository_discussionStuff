@@ -25,3 +25,9 @@ jobs:
 
           # If you want to enable strikes, specify the number of strikes a user can receive before they are banned
           strikes_to_ban:  3
+                    
+          # If you want to enable auto format-enforcement, provide a regex to match against
+          auto_close_regex: ".*"
+          
+          # Shall discussion authors that didn't obey the format receive strikes for it -- uses the strikes_to_ban quota like normal strikes
+          strike_per_nonFormat: True
