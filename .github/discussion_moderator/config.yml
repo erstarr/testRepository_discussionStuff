@@ -7,3 +7,4 @@ strikers:
 # Users who can use /ban @user <reason> as well as do perform any other command
 moderators:
   - erstarr
+  - wabarTM
