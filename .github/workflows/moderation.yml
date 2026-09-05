@@ -1,4 +1,4 @@
-name: Moderate Discussions
+name: triggerHappy - Discussion Moderation Tool
 
 on:
   discussion:
@@ -9,7 +9,6 @@ on:
 permissions:
   discussions: write   # close discussions, post comments
   contents: write      # write back to banned.yml / strikes.yml
-  actions: write
 
 jobs:
   moderate:
