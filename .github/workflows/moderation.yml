@@ -17,6 +17,7 @@ jobs:
       - uses: erstarr/triggerhappy@main # TODO remember to bumb when publishing first stable ver
         with:
           github_token: ${{ secrets.CROSS_REPO_TOKEN }}
+          storage_repo: erstarr/test_discussionModeration_SERVER_LOCATION
           # optional - only needed if you move the files elsewhere
           # config_path:  .github/discussion_moderator/config.yml
           # banned_path:  .github/discussion_moderator/banned.yml
