@@ -24,6 +24,7 @@ jobs:
           # banned_path:  .github/discussion_moderator/banned.yml
           # strikes_path:    .github/discussion_moderator/strikes.yml
 
+          auto_close_categories: "General"
           # If you want to enable strikes, specify the number of strikes a user can receive before they are banned
           strikes_to_ban:  3
                     
