@@ -21,7 +21,7 @@ jobs:
         run: echo "$BODY"
 
     
-      - uses: erstarr/triggerhappy@main # TODO remember to bumb when publishing first stable ver
+      - uses: erstarr/triggerhappy@v0.1 # TODO remember to bumb when publishing first stable ver
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           storage_token: ${{ secrets.CROSS_REPO_TOKEN || secrets.GITHUB_TOKEN }}
