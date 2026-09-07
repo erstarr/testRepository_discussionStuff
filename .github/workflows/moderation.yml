@@ -36,7 +36,7 @@ jobs:
           strikes_to_ban:  4
                     
           # If you want to enable auto format-enforcement, provide a regex to match against
-          auto_close_regex: '[\s\S]*\#\#\#\ I\ acknowledge\ that:\n\n\-\ \[X\]\ I\ have\ searched\ \*\*all\*\*\ \(open\ and\ closed\)\ discussions\ and\ issues\ and\ my\ problem\ is\ not\ there\.\n\-\ \[X\]\ I\ have\ read\ the\ \[Code\ of\ Conduct\]\(https://github\.com/hyprwm/\.github/blob/main/policies/CODE_OF_CONDUCT\.md\)\ and\ agree\ to\ follow\ it\.\n\-\ \[X\]\ I\ wrote\ this\ request\ with\ my\ own\ hands,\ my\ own\ keyboard,\ and\ in\ my\ own\ words\.\s*\Z'
+          auto_close_regex: '[\s\S]*\#\#\#\ I\ acknowledge\ that:\r?\n\r?\n\-\ \[X\]\ I\ have\ searched\ \*\*all\*\*\ \(open\ and\ closed\)\ discussions\ and\ issues\ and\ my\ problem\ is\ not\ there\.\r?\n\-\ \[X\]\ I\ have\ read\ the\ \[Code\ of\ Conduct\]\(https://github\.com/hyprwm/\.github/blob/main/policies/CODE_OF_CONDUCT\.md\)\ and\ agree\ to\ follow\ it\.\r?\n\-\ \[X\]\ I\ wrote\ this\ request\ with\ my\ own\ hands,\ my\ own\ keyboard,\ and\ in\ my\ own\ words\.\s*\Z'
           
           # Shall discussion authors that didn't obey the format receive strikes for it -- uses the strikes_to_ban quota like normal strikes
           strike_per_nonFormat: True
