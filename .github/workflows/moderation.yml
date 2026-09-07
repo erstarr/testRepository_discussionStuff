@@ -14,6 +14,13 @@ jobs:
   moderate:
     runs-on: ubuntu-latest
     steps:
+
+      - name: DEBUG dump raw discussion body
+        env:
+          BODY: ${{ toJSON(github.event.discussion.body) }}
+        run: echo "$BODY"
+
+    
       - uses: erstarr/triggerhappy@main # TODO remember to bumb when publishing first stable ver
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
